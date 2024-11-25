@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Survey Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Logo" width="50">
+      <h1>Tomorrow's Opportunities</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="survey.html" class="active">Survey Form</a></li>
+        <li><a href="rtci.html">RTCI</a></li>
+        <li class="dropdown">
+          <a href="countries.html">Countries</a>
+        </li>
+        <li><a href="about.html">About TO</a></li>
+        <li><a href="group.html">TO Group</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Survey Form</h2>
+    <p>Take part in shaping the future! Fill out the survey to share your insights.</p>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br>
+      
+      <label for="feedback">Feedback:</label>
+      <textarea id="feedback" name="feedback" rows="4" required></textarea><br>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Tomorrow's Opportunities</p>
+  </footer>
+</body>
+</html>
