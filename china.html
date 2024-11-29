@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schools: China</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="assets/logo.jpeg" alt="TO Logo">
+            <span>Tomorrow's Opportunities</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="survey-form.html">Survey Form</a></li>
+                <li><a href="rtci.html">RTCI</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn active">Countries</a>
+                    <div class="dropdown-content">
+                        <a href="china.html" class="active">China</a>
+                        <a href="us.html">United States</a>
+                        <a href="uk.html">United Kingdom</a>
+                    </div>
+                </li>
+                <li><a href="index.html">About TO</a></li>
+                <li><a href="to-group.html">TO Group</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Content -->
+    <section class="section">
+        <h2>China</h2>
+        <div class="country-section">
+            <h3>Frequently Used Websites (click to expand)</h3>
+            <button onclick="toggleSubsection('china-middle')">China Middle School</button>
+            <div id="china-middle" class="hidden-content">
+                <p>Details about middle schools in China.</p>
+            </div>
+            <button onclick="toggleSubsection('china-high')">China High School</button>
+            <div id="china-high" class="hidden-content">
+                <p>Details about high schools in China.</p>
+            </div>
+            <button onclick="toggleSubsection('china-university')">China Colleges/Universities</button>
+            <div id="china-university" class="hidden-content">
+                <p>Details about colleges and universities in China.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer 
+    <footer>
+        <p>&copy; 2024 Tomorrow's Opportunities</p>
+    </footer>-->
+
+    <script src="script.js"></script>
+</body>
+</html>
