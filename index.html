@@ -10,8 +10,10 @@
     <!-- Header -->
     <header>
         <div class="logo">
-            <img src="assets/logo.jpeg" alt="TO Logo">
-            <span>Tomorrow's Opportunities</span>
+            <a href="index.html">
+                <img src="assets/logo.jpeg" alt="TO Logo">
+                <span>Tomorrow's Opportunities</span>
+            </a>
         </div>
         <nav>
             <ul class="nav-links">
@@ -25,8 +27,6 @@
                         <a href="uk.html">United Kingdom</a>
                     </div>
                 </li>
-                <li><a href="index.html" class="active">About TO</a></li>
-                <li><a href="to-group.html">TO Group</a></li>
             </ul>
         </nav>
     </header>
@@ -35,17 +35,35 @@
     <section class="section">
         <h2>Mission</h2>
         <p>TO aims to provide (middle school and beyond) students with essential information to help them plan for the next phase of their academic journey...</p>
-        <h3>This website includes:</h3>
+        <h2>This website includes:</h2>
         <ul>
-            <li>Common information about schools in different countries</li>
+            <li>Common information about sc hools in different countries</li>
             <li>Comments and insights on different schools from currently enrolled students</li>
             <li>Frequently used website links...</li>
             <li>RTCI (Real Talk with College Insiders)...</li>
         </ul>
-        <h3>Join Us</h3>
+        <h2>Join Us</h2>
         <p>We welcome all who are passionate and value connections...</p>
     </section>
 
+    <section class="section">
+        <h2>Meet The TO Group</h2>
+        <div class="group-section">
+            <button onclick="toggleSubsection('to-founders')">Founders</button>
+            <div id="to-founders" class="hidden-content">
+                <h3>Sally (founder)</h3>
+                    <p>
+                        <b>Role 工作内容：</b><br>
+                        Primarily responsible for managing various teams, regularly organizing weekly meetings to follow up on project progress, and staying informed about the team's work status through reports and feedback. At the same time, based on the actual situation and overall development needs, I set short-term goals for the teams to ensure tasks are completed smoothly and design long-term goals to provide a clear roadmap for the team's continued growth and future direction.<br>主要负责管理各个小组，定期组织每周的会议以跟进项目进度，通过汇报和反馈及时了解团队的工作状态。同时，根据实际情况和整体发展需求，制定小组的短期目标以确保任务顺利完成，并设计长期目标，为团队的持续发展和未来方向提供清晰的规划。
+                        <br><br>
+                        <b>Reason for Creating 创办组织的原因：</b><br>
+                        As someone who has applied to many schools and adapted to new environments multiple times, I understand that each time I integrate into a new campus, I encounter many unknown challenges. Whenever I truly become a part of a school, I often regret not having a deeper understanding of all aspects of that institution beforehand. This experience inspired me to create this organization, with the hope of helping others easily access in-depth information, allowing them to make more confident decisions and avoid unnecessary detours.<br>作为一个申请过众多学校并多次适应新环境的人，我深知在每次融入一个新校园时，都会遇到许多未知的挑战。每当我真正成为学校的其中一员时，总会后悔当初为什么没有更深入地了解这个学校的方方面面。这种经历促使我萌生了创办组织的想法，希望能帮助其他人更轻松地获得深度信息，让他们在做选择时更加从容、少走弯路。
+                    </p>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
     <!-- Footer 
     <footer>
         <p>&copy; 2024 Tomorrow's Opportunities</p>

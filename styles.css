@@ -1,3 +1,12 @@
+/*
+1. General Reset 
+2. Header
+3. Dropdown Menu
+4. Sections
+5. Country Sections
+6. Footer
+*/
+
 /* General Reset */
 * {
     margin: 0;
@@ -49,12 +58,19 @@ header .logo {
     align-items: center;
     gap: 10px;
 }
+header .logo a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
 header .logo img {
     height: 50px;
 }
 header .logo span {
     font-size: 18px;
     font-weight: bold;
+    color: white;
+    text-align: center;
 }
 
 .nav-links {
@@ -102,9 +118,9 @@ header .logo span {
     padding: 40px 20px;
     margin: 20px auto;
     max-width: 800px;
-    background: #f9f9f9;
+    /*background: #f9f9f9;*/
     border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /*box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);*/
 }
 
 /*.section {
@@ -116,7 +132,8 @@ header .logo span {
 }*/
 
 .section h2 {
-    margin-bottom: 20px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
     font-size: 24px;
     color: #004080;
 }
@@ -124,8 +141,13 @@ header .logo span {
 .section h3 {
     margin-top: 20px;
     margin-bottom: 10px;
-    font-size: 20px;
+    font-size: 16px;
     color: #003366;
+}
+
+ul {
+    padding-left: 25px;
+
 }
 
 .section form {
@@ -159,6 +181,7 @@ header .logo span {
 }
 
 /* Country Sections */
+.group-section button,
 .country-section button {
     background: #004080;
     color: white;
@@ -172,6 +195,7 @@ header .logo span {
     text-align: left;
 }
 
+.group-section button:hover,
 .country-section button:hover {
     background: #003366;
 }
@@ -189,7 +213,7 @@ header .logo span {
 footer {
     text-align: center;
     padding: 10px;
-    background: linear-gradient(to bottom right, #d9e4f5, #f8e8df);
+    background: linear-gradient(to bottom, #e2eeff, #f8e8df);
     color: white;
     margin-top: 20px;
 }
